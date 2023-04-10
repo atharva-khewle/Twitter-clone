@@ -1,0 +1,177 @@
+.carrier1{
+    display: inline-block;
+    width: 10px;
+    height: 3vw;
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    
+    animation: carriers 2.01s ease-in-out 0s infinite alternate;
+    
+
+}
+
+.ball1{
+    display: inline-block;
+    position: relative;
+    animation-name: balls;
+    animation: balls 0.01s ease-in-out 0s infinite alternate;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 0, 255);
+    border-radius: 5px;
+}
+
+
+.carrier2{
+    display: inline-block;
+    width: 10px;
+    height: 3vw;
+    background-color: rgb(0, 0, 0,0);
+    position: relative;
+    
+    animation: carriers 2.02s ease-in-out 0s infinite alternate;
+    
+
+}
+
+.ball2{
+    display: inline-block;
+    border-radius: 5px;
+
+    position: relative;
+    animation-name: balls;
+    animation: balls 0.01s ease-in-out 0s infinite alternate;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(0, 247, 255);
+}
+
+
+
+.carrier3{
+    display: inline-block;
+    width: 10px;
+    height: 3vw;
+    background-color: rgb(0, 0, 0,0);
+    position: relative;
+    
+    animation: carriers 2.03s ease-in-out 0s infinite alternate;
+    
+
+}
+
+.ball3{
+    display: inline-block;
+    position: relative;
+    animation-name: balls;
+    border-radius: 5px;
+
+    animation: balls 0.02s ease-in-out 0s infinite alternate;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(145, 255, 0);
+}
+
+
+
+.carrier4{
+    display: inline-block;
+    width: 10px;
+    height: 3vw;
+    background-color: rgb(0, 0, 0,0);
+    position: relative;
+    
+    animation: carriers 2.04s ease-in-out 0s infinite alternate;
+    
+
+}
+
+.ball4{
+    display: inline-block;
+    position: relative;
+    animation-name: balls;
+    border-radius: 5px;
+
+    animation: balls 0.03s ease-in-out 0s infinite alternate;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 0, 64);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.c1{
+    border: 2px solid rgb(0, 60, 255);
+    animation-name: opm;
+    animation: opm 4s ease 0s 1 forwards;
+    color: black;
+
+}
+
+
+
+
+@keyframes carriers{
+    0%{left: 0vw;}
+    /* 30%{width: 30vw;}
+    70%{width: 90vw;}
+    80%{width: 95vw;} */
+    100%{left: 100vw; }
+}
+
+
+@keyframes balls{
+    0%{top: 0vw;}
+    /* 30%{width: 30vw;} */
+    /* 70%{top: 1vw;} */
+    /* 80%{width: 95vw;} */
+    100%{top: 2vw;}
+}
+
+
+@keyframes opm{
+    0%{width: 0vw;}
+    30%{width: 30vw;}
+    70%{width: 90vw;}
+    80%{width: 95vw;}
+    100%{width: 100vw; 
+        display: none;}
+}
