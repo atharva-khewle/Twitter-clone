@@ -1,179 +1,331 @@
-.carrier1{
-    display: inline-block;
-    width: 10px;
-    height: 3vw;
-    background-color: rgba(0, 0, 0, 0);
-    position: relative;
-    
-    animation: carriers 2.01s ease-in-out 0s infinite alternate;
-    
+*{
 
+    padding: 0;
+    bottom: 0;
+    border-color: gray;
 }
 
-.ball1{
-    display: inline-block;
-    position: relative;
-    animation-name: balls;
-    animation: balls 0.03s ease-in-out 0s infinite alternate;
-    width: 10px;
-    height: 10px;
-    background-color: rgb(255, 0, 255);
-    border-radius: 5px;
+body{
+
+    background-color: #000000;
 }
 
-
-.carrier2{
-    display: inline-block;
-    width: 10px;
-    height: 3vw;
-    background-color: rgb(0, 0, 0,0);
-    position: relative;
-    
-    animation: carriers 2.02s ease-in-out 0s infinite alternate;
-    
-
+.box{
+    background-color: #000000;
+    display: flex;
+    /* grid-template-columns: auto auto auto; */
+    /* flex-direction: column; */
+    justify-content: center;
 }
 
-.ball2{
-    display: inline-block;
-    border-radius: 5px;
+.box01{
+  z-index: 0;
+  background-color: #000000;
+  display: inline-block;
+  position: sticky;
+  top: 0px;
 
-    position: relative;
-    animation-name: balls;
-    animation: balls 0.02s ease-in-out 0s infinite alternate;
-    width: 10px;
-    height: 10px;
-    background-color: rgb(0, 247, 255);
+  color: rgb(255, 255, 255);
+}
+.box0{
+    background-color: #07070700;
+    display: inline-block;
+    position: sticky;
+    top: 0px;
+    width: 10vw;
+    height: 100vh;
+    color: rgb(255, 255, 255);
 }
 
-
-
-.carrier3{
+.box1{
+    background-color: #07070700;
     display: inline-block;
-    width: 10px;
-    height: 3vw;
-    background-color: rgb(0, 0, 0,0);
-    position: relative;
+ 
+    position: sticky;
+    top: 0px;
+    width: 25vw;
+    height: 100vh;
+    color: rgb(255, 255, 255);
     
-    animation: carriers 2.03s ease-in-out 0s infinite alternate;
-    
-
-}
-
-.ball3{
-    display: inline-block;
-    position: relative;
-    animation-name: balls;
-    border-radius: 5px;
-
-    animation: balls 0.01s ease-in-out 0s infinite alternate;
-    width: 10px;
-    height: 10px;
-    background-color: rgb(145, 255, 0);
 }
 
 
+.box2{
+    background-color: #000000;
+    display: block;
+    
+    width: 36vw;
+    height: 500vh;
+    color: #ff0000;
+    border-left-width: 1px;
+border-left-style: solid;
+border-color: gray;
 
-.carrier4{
-    display: inline-block;
-    width: 10px;
-    height: 3vw;
-    background-color: rgb(0, 0, 0,0);
-    position: relative;
-    
-    animation: carriers 2.04s ease-in-out 0s infinite alternate;
-    
 
 }
 
-.ball4{
+.scrollerdiv3{
+  
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-color: gray;
+      top: 0px;
+      background-color: #000000;
+     
+      width: 29vw;
+      height:160vh;
+      color: #ffffff;
+      position: sticky;
+      display: flex;
+      flex-direction: column;
+  overflow:scroll;
+}
+.box3{
+    border-left-style: solid;
+border-left-width: 1px;
+border-color: gray;
+    top: 0px;
+    background-color: #000000;
     display: inline-block;
-    position: relative;
-    animation-name: balls;
-    border-radius: 5px;
+    width: 29vw;
+    height:160vh;
+    color: #ffffff;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    overflow:scroll;
+   
+    
 
-    animation: balls 0.01s ease-in-out 0s infinite alternate;
-    width: 10px;
-    height: 10px;
-    background-color: rgb(255, 0, 0);
+
 }
 
 
+.tweet1{
+    display: flex;
+    justify-content: center;
+    top: 600px;
+}
 
+
+.tweet2{
+    position: relative;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    display: inline-block;
+    background-color: rgb(5, 134, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 1px;
+
+}
+
+.tweet2:hover {
+    transform: scale(1.02); 
+  }
+
+.tweet3{
+
+    display: flex;
+    font-size: 20px;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
 
 li{
-    z-index: 8;
+    margin: 30px;
 }
 
+.listttt{
+    display: flex;
+    /* right: 30vw; */
+    justify-content: center;
+    /* flex-direction: column; */
+    font-size: 20px;
+}
+
+.searchcentre{
+    padding-bottom: 20px;
+    
+    top: 5px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+}
+.searchbar{
+    display: inline-block;
+    height: 40px;
+    width: 20vw;
+    background-color: #202020;
+    color: gray;
+    font-size: 15px;
+
+    border-radius: 9000px;
+}
+
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: none;
+    background-color: #444141;
+  }
+
+  .mainpage{
+    background-color: rgb(0, 0, 0);
+    height: 60vh;
+    width: 36vw;
+    display: inline-block;
+ 
+
+  }
+
+  .mainpage2{
+    border-bottom-style: solid;
+border-bottom-width: 1px;
+    background-color: rgb(221, 138, 29);
+    height: 5vh;
+    width: 36vw;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+   
+
+  }
+  .space1{
+    height: 10vh;
+  }
+  .mainpage301{
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+  
+  }
 
 
 
+  .mainpage3{
+display: inline-block;
+display: flex;
+flex-direction: column;
+gap: 30px;
+justify-content: center;
+  }
 
+  .block{
+ 
+    height: 5vh;
+    width: 9vw;
+    display: inline-block;
+    background-color: #000000;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 20px;
+  }
 
+  .block:hover{
+    background-color: #1f1e1e;
+  }
 
+  .block2{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.c1{
-    border: 2px solid rgb(0, 60, 255);
-    animation-name: opm;
-    animation: opm 4s ease 0s 1 forwards;
-    color: black;
+  .block3{
+    display: inline-block;
+ 
+  }
+  .helper
+{
+    display: flex;
+    justify-content: center;
 
 }
 
+.meme{
+background-color: #5e5e5e;
+display: inline-block;
+height: 40vh;
+width: 30vw;
+border-radius: 10px 70px ;
 
+}
+.oldimg{
+  background-color: #5e5e5e;
+  display: inline-block;
+  height: 40vh;
+  width: 30vw;
+  border-radius: 10px 70px ;
+  
+  }
 
-
-@keyframes carriers{
-    0%{left: 0vw;}
-    /* 30%{width: 30vw;}
-    70%{width: 90vw;}
-    80%{width: 95vw;} */
-    100%{left: 100vw; }
+  .rightflex{
+    padding: 10px;
+    display: inline-block;
+    top: 50px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 20px;
+    
 }
 
+.rightblock{
+    /* padding: 10px;
+     */
+     border-top: 15px;
 
-@keyframes balls{
-    0%{top: 0vw;}
-    /* 30%{width: 30vw;} */
-    /* 70%{top: 1vw;} */
-    /* 80%{width: 95vw;} */
-    100%{top: 2vw;}
-}
+    display: inline-block;
+    height: 35vh;
+    width: 25vw;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #5e5e5e;
+  }
+  .newimg{
+    /* padding: 10px;
+     */
+     border-top: 15px;
+
+    display: inline-block;
+    height: 35vh;
+    width: 25vw;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #5e5e5e;
+  }
 
 
-@keyframes opm{
-    0%{width: 0vw;}
-    30%{width: 30vw;}
-    70%{width: 90vw;}
-    80%{width: 95vw;}
-    100%{width: 100vw; 
-        display: none;}
-}
+
+  .footer{
+    background-color: rgb(0, 0, 0);
+    height: 3vw;
+    width: 100vw;
+    border-top-style: solid;
+border-top-width: 1px;
+  }
+
+
+
+  .everybox:hover{
+    transform: scale(1.03);
+  }
+  /* .pig777{
+
+    width: 30vw;
+    height: 70vw;
+    image-rendering: pixelated;
+  } */
+
+  /* #Replies{background-color: rgb(0, 0, 0);} */
